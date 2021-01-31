@@ -1,2 +1,0 @@
-wget https://USERNAME:PASSWORD@domains.google.com/nic/update?hostname=YOURDOMAIN -O get_request_responses.txt
-echo " --- Last run: `date`" >> dns_update_responses.txt
