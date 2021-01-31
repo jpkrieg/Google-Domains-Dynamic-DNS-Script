@@ -21,3 +21,6 @@ Copyright (c) 2021 John Paul Krieg
 ### Automate the script using crontab
 1. Execute `crontab -e`
 2. Add this line: `0 * * * * ~/google_domains_dns_update.sh`. This translates to: on the 0th minute of every hour, of every day, of every month, for all days of the week, run the script to keep the DNS resolution up to date
+## Logs
+1. `DNS_RESPONSE_***.log` contains the most recent response from google for your subdomain `***`. You can interpret their responses using the table here [Google Domains Dynamic DNS](https://support.google.com/domains/answer/6147083?hl=en&ref_topic=9018335#zippy=%2Cusing-the-api-to-update-your-dynamic-dns-record).
+2. `DNS_UPDATES.log` contains a timestamp for every time crontab runs your script.
