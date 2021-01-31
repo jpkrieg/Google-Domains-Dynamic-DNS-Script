@@ -20,5 +20,4 @@ Copyright (c) 2021 John Paul Krieg
 8. Make the script executable: run `chmod +x google_domains_dns_update.sh`
 ### Automate the script using crontab
 1. Execute `crontab -e`
-2. Add this line: `0 * * * * ~/google_domains_dns_update.sh`
-    a. this translates to: on the 0th minute of every hour, of every day, of every month, for all days of the week, run the script to keep the DNS resolution up to date
+2. Add this line: `0 * * * * ~/google_domains_dns_update.sh`. This translates to: on the 0th minute of every hour, of every day, of every month, for all days of the week, run the script to keep the DNS resolution up to date
