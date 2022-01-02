@@ -1,6 +1,6 @@
 # Google Domains Dynamic DNS Host Registration
 
-Copyright (c) 2021 John Paul Krieg
+Copyright (c) 2022 John Paul Krieg
 
 ## Instructions
 ### Set up the script
