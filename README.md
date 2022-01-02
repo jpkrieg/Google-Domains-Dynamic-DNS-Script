@@ -8,13 +8,13 @@ Copyright (c) 2022 John Paul Krieg
 2. Navigate to the DNS Tab and find the "Synthetic records" card.
 3. In the dropdown, select "Dynamic DNS" and enter a subdomain, such as `WWW`
 4. Expand the card for the subdomain you just created and click "View Credentials"; take note of two strings:
-    a. Username:
-    b. Password:
+	a. Username:
+	b. Password:
 5. Make these substitutions to the URL found in `google_domains_dns_update.sh`:
-    a. Replace `username` with the username from step 4
-    b. Replace `password` with the password from step 4
-    c. Replace `subdomain` with the subdomain created in step 3 (i.e., `WWW`)
-    d. Replace `yourdomain` with your domain name (i.e., jpkrieg)
+	a. Replace `username` with the username from step 4
+	b. Replace `password` with the password from step 4
+	c. Replace `subdomain` with the subdomain created in step 3 (i.e., `WWW`)
+	d. Replace `yourdomain` with your domain name (i.e., jpkrieg)
 6. Update the output filename (`DNS_RESPONSE_WWW.log`) for each URL to end in the proper subdomain (`WWW` by default)
 7. Repeat steps 3-6 for all subdomains you'd like supported, each time copying line 1 and making the necessary substitutions
 8. Make the script executable: run `chmod +x google_domains_dns_update.sh`
